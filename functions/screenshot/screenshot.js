@@ -3,7 +3,7 @@ const defaults = require("lodash.defaults")
 const puppeteer = require("puppeteer-core")
 const qs = require("qs")
 const regexMerge = require("regex-merge")
-
+alert(1)
 const pattern = regexMerge(
   /^(?:\/\.netlify\/functions)?/,
   /(?:\/screenshot)?/,
